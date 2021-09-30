@@ -1,0 +1,324 @@
+@charset "UTF-8";
+/* --------------顏色設定開始--------------- */
+/* --------------字型設定開始--------------- */
+/* --------------其他功能設定開始--------------- */
+/*--溢出文字點點點--*/
+/*--隱藏區塊內文字--*/
+/* --------------按鈕設定開始--------------- */
+/*標題設定開始*/
+/*表格設定開始*/
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+/*h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}*/
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0; }
+
+img, object, embed, video {
+  max-width: 100%; }
+
+/* --------------基本設定開始--------------- */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  -webkit-text-size-adjust: none; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Noto Sans TC", "Microsoft JhengHei", "sans-serif";
+  line-height: 1.5;
+  color: #666666;
+  background: #F8F8F8; }
+
+.clear {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0px; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+a,
+a:hover {
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-decoration: none; }
+
+a:focus {
+  outline: none; }
+
+p {
+  margin-bottom: 0; }
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0; }
+
+ol {
+  margin-bottom: 0; }
+
+.container {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px; }
+
+.text-center {
+  text-align: center; }
+
+.font-heavy {
+  font-weight: 700; }
+
+.font-light {
+  font-weight: 300; }
+
+.small-txt {
+  font-size: 0.875rem;
+  line-height: 1.3; }
+
+.primary-color {
+  color: #4EB531 !important; }
+
+.secondary-color {
+  color: #E67B44 !important; }
+
+.tertiary-color {
+  color: #AA6EAC !important; }
+
+.tertiary-light-color {
+  color: #E5D3E6 !important; }
+
+.assist-color {
+  color: #51A6AB !important; }
+
+.assist-light-color {
+  color: #D0EAEC !important; }
+
+.cold-color {
+  color: #448FE5 !important; }
+
+.cold-light-color {
+  color: #C6DDF7 !important; }
+
+.light-color {
+  color: #E8EEF2 !important; }
+
+.steady-color {
+  color: #C99E5E !important; }
+
+.steady-light-color {
+  color: #F0E7D9 !important; }
+
+.white {
+  color: #fff !important; }
+
+.gray {
+  color: #ccc !important; }
+
+.gray-light {
+  color: #F8F8F8 !important; }
+
+.font-xs {
+  font-size: 0.7rem !important; }
+
+.font-sm {
+  font-size: 0.875rem !important; }
+
+.font-md {
+  font-size: 1rem !important; }
+
+.font-ml {
+  font-size: 1.1rem !important; }
+
+.font-lg {
+  font-size: 0.875rem !important; }
+
+.font-xl {
+  font-size: 1.8rem !important; }
+
+.font-xxl {
+  font-size: 3rem !important; }
+
+.img-link:hover {
+  opacity: 0.8; }
+
+.bg-primary-color {
+  background: #4EB531; }
+
+.bg-secondary-color {
+  background: #E67B44; }
+
+.bg-tertiary-color {
+  background: #AA6EAC; }
+
+.bg-tertiary-light-color {
+  background: #E5D3E6; }
+
+.bg-assist-color {
+  background: #51A6AB; }
+
+.bg-assist-light-color {
+  background: #D0EAEC; }
+
+.bg-cold-color {
+  background: #448FE5; }
+
+.bg-cold-light-color {
+  background: #C6DDF7; }
+
+.bg-light-color {
+  background: #E8EEF2; }
+
+.bg-steady-color {
+  background: #C99E5E; }
+
+.bg-steady-light-color {
+  background: #F0E7D9; }
+
+.bg-white {
+  background: #fff; }
+
+.bg-gray {
+  background: #ccc; }
+
+.bg-gray-light {
+  background: #F8F8F8; }
+
+.border-primary-color {
+  border: 1px solid #4EB531; }
+
+.border-secondary-color {
+  border: 1px solid #E67B44; }
+
+.border-tertiary-color {
+  border: 1px solid #AA6EAC; }
+
+.border-tertiary-light-color {
+  border: 1px solid #E5D3E6; }
+
+.border-assist-color {
+  border: 1px solid #51A6AB; }
+
+.border-assist-light-color {
+  border: 1px solid #D0EAEC; }
+
+.border-cold-color {
+  border: 1px solid #448FE5; }
+
+.border-cold-light-color {
+  border: 1px solid #C6DDF7; }
+
+.border-light-color {
+  border: 1px solid #E8EEF2; }
+
+.border-steady-color {
+  border: 1px solid #C99E5E; }
+
+.border-steady-light-color {
+  border: 1px solid #F0E7D9; }
+
+.border-white {
+  border: 1px solid #fff; }
+
+.border-gray {
+  border: 1px solid #ccc; }
+
+.border-gray-light {
+  border: 1px solid #F8F8F8; }
+
+.info-card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px #ccc;
+          box-shadow: 0 2px 5px #ccc;
+  overflow: hidden;
+  margin: 0 6px 0 6px;
+  width: 100%; }
+  .info-card .info-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 13px 20px;
+    font-size: 1.2em; }
+  .info-card .info-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 10px; }
+  .info-card .info-txt {
+    font-size: 0.6em; }
+  .info-card .info-badge {
+    border-radius: 20px;
+    padding: 0 5px; }
+  .info-card .info-item {
+    width: 100%; }
+  .info-card .info-icon {
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 8px 0;
+    margin: 0 8px 7px 8px;
+    font-size: 0.8em; }
+    .info-card .info-icon + p {
+      font-size: 1em; }
+      .info-card .info-icon + p span {
+        font-size: 0.8em; }
+    .info-card .info-icon img {
+      width: 37px; }
+
+/*# sourceMappingURL=all.css.map */

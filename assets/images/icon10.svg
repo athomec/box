@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <g id="icon10" transform="translate(-890 -102)">
+    <g id="connect_without_contact_black_24dp" transform="translate(894.297 106.298)">
+      <rect id="Rectangle_70" data-name="Rectangle 70" width="30" height="30" transform="translate(-0.298 -0.298)" fill="none"/>
+      <path id="Path_107" data-name="Path 107" d="M13.027,16.7h-2.45A11.028,11.028,0,0,1,21.6,5.676v2.45A8.57,8.57,0,0,0,13.027,16.7ZM21.6,13.027v-2.45A6.128,6.128,0,0,0,15.477,16.7h2.45A3.671,3.671,0,0,1,21.6,13.027ZM8.126,4.45A2.45,2.45,0,1,0,5.676,6.9,2.442,2.442,0,0,0,8.126,4.45Zm5.452.613h-2.45A3.663,3.663,0,0,1,7.513,8.126H3.838A1.835,1.835,0,0,0,2,9.964v3.063H9.351V10.258A6.089,6.089,0,0,0,13.578,5.063Zm9.25,15.315a2.45,2.45,0,1,0-2.45-2.45A2.442,2.442,0,0,0,22.829,20.378ZM24.666,21.6H20.991a3.663,3.663,0,0,1-3.614-3.063h-2.45a6.089,6.089,0,0,0,4.227,5.195V26.5H26.5V23.441A1.835,1.835,0,0,0,24.666,21.6Z" transform="translate(0.45 0.45)" fill="#c99e5e"/>
+    </g>
+    <rect id="Rectangle_80" data-name="Rectangle 80" width="37" height="37" transform="translate(890 102)" fill="none"/>
+  </g>
+</svg>
